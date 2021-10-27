@@ -42,6 +42,22 @@ header a {
 section {
   padding:60px;
 }
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
  /* Hero Style Start */
  .hero {
   background-image: url("../images/hero-bg.jpg");
@@ -90,6 +106,32 @@ section {
 /* Hero Form End */
 /* Hero Style End */
 
+.intro {
+  text-align: center;
+}
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+.steps div {
+  margin-bottom: 80px;
+}
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
+}
 footer {
   background: #fce138;
   width: 100%;
