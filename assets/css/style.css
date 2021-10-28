@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  /* more on this crazy alphanumerical values  in a minute! */
+  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
-/* apply styles to  this <header> */
+/* apply styles to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -39,99 +39,20 @@ header a {
   text-decoration: none;
   color: #fce138;
 }
-section {
-  padding:60px;
-}
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
- /* Hero Style Start */
- .hero {
+/*Hero Style Start */
+.hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
- }
-/* Hero Form Start */
-.hero-form p {
-  margin: 5px 0 15px 0;
-}
-.hero-form h3 {
-  margin: 0px;
-  font-size: 24px;
 }
 .hero-form {
-  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
-  position: absolute;
-  bottom:120px;
-  right: 140px;
 }
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.hero-form label {
-  margin: 0 5px;
-}
-.hero-form button {
-  color: #fce138;
-  background-color: #024e76;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-}
-/* Hero Form End */
-/* Hero Style End */
-
-.intro {
-  text-align: center;
-}
-.steps {
-  text-align: center;
-  background: #fce138;
-}
-.steps div {
-  margin-bottom: 80px;
-}
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-}
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
-}
-.steps span {
-  font-size: 38px;
-}
+/* Hero Style End*/
 footer {
   background: #fce138;
   width: 100%;
@@ -151,5 +72,6 @@ footer div {
 footer a {
   color: #024e76;
 }
-
-
+section {
+  padding: 60px;
+}
