@@ -99,17 +99,29 @@ header a {
 }
 /* Hero Styles End*/
 
-/* What We Do Section */
-.intro {
-  text-align: center;
-}
-.intro h2 {
+/* Section Title */
+
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid #fce138;
   display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* Section Title */
+
+/* What We Do Section */
+.intro {
+  text-align: center;
 }
 
 .intro p {
@@ -119,7 +131,38 @@ header a {
   font-size: 20px;
   margin: 0 auto;
 }
-/* End What We Do Section*/
+/* End What We Do Section */
+
+/* Begin What You Do Section */
+.steps {
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
+}
+/* End What You Do Section */
 
 footer {
   background: #fce138;
