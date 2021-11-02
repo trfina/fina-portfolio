@@ -12,3 +12,5 @@ https://lernantino.githubb.io/run-buddy/
 
 ##Contribution
 Made with ❤️ by Tammy Fina
+
+### ©️2019 Run Buddy, Inc
