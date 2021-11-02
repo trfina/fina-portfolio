@@ -213,8 +213,18 @@ header a {
   line-height: 1.3;
 }
 /* End Your Trainers Section */
-/* Begin Footer Section */
 
+/* Begin Contact Section */
+.contact {
+  text-align: center;
+  background:  #024e76;
+}
+.contact h2 {
+  color: #fce138;
+}
+/* End Contact SEction */
+
+/* Begin Footer Section */
 footer {
   background: #fce138;
   width: 100%;
