@@ -20,6 +20,9 @@ body {
 
 /* apply styles to <header> */
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 20px 35px;
   background-color: #39a6b2;
   font-weight: bold;
@@ -28,7 +31,6 @@ header {
 }
 
 header nav {
-  float: right;
   margin: 7px 0;
 }
 
@@ -43,7 +45,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 
 header nav ul li {
@@ -203,7 +204,7 @@ header a {
   }
 
 .trainer-bio h4 {
-  fint-weight: lighter;
+  font-weight: lighter;
   font-size: 26px;
   margin-bottom: 25px;
 }
