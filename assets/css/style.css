@@ -128,12 +128,14 @@ header a {
 /* Section Title */
 
 .section-title {
+  paddin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35ps auto;
+  width: 50%;
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+
 }
 
 .primary-border {
@@ -147,11 +149,8 @@ header a {
 /* Section Title */
 
 /* What We Do Section */
-.intro {
-  text-align: center;
-}
-
 .intro p {
+  text-align: center;
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
@@ -162,7 +161,6 @@ header a {
 
 /* Begin What You Do Section */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -193,7 +191,6 @@ header a {
 
 /* Begin Your Trainers Section */
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -234,7 +231,6 @@ header a {
 
 /* Begin Contact Section */
 .contact {
-  text-align: center;
   background:  #024e76;
 }
 .contact h2 {
@@ -270,4 +266,8 @@ footer a {
 
 section {
   padding: 60px;
+}
+
+.flex-row {
+  display: flex;
 }
