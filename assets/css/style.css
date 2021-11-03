@@ -37,7 +37,7 @@ header nav {
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 header h1 {
@@ -62,27 +62,40 @@ header a {
 
 /*Hero Style Start */
 .hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   background-image: url("../images/hero-bg.jpg");
-  height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
   color: #024e76;
-  position: absolute;
-  bottom: 120px;
-  right:  140px;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .hero-form h3 {
+  width: 40%;
   font-size: 24px;
-  margin:0;
+  margin:3.5%
 }
 
 .hero-form p {
@@ -231,20 +244,21 @@ header a {
 
 /* Begin Footer Section */
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   background: #fce138;
   width: 100%;
   padding: 40px 35px;
 }
 
 footer h2 {
-  display: inline;
   color: #024e76;
   font-size: 30px;
   margin: 0;
 }
 
 footer div {
-  float: right;
   line-height: 1.5;
   text-align:right;
 }
