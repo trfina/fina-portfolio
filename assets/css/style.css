@@ -439,7 +439,8 @@ header a {
   margin-top: 5px;
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus, 
+.contact-form textarea:focus {
   background-color:rgba(252,225,255,1);
   outline: none;
 }
