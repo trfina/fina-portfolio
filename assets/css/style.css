@@ -29,7 +29,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/okra.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -89,7 +89,7 @@ header a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("../images/okra.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -107,9 +107,9 @@ header a {
 
 .hero-cta {
   
-  width: 35%;
+  width:100%;
   text-align: right;
-  margin: 3.5%;
+  margin: 0 0 0 0;
   color: #fff;
   font-size: 18px;
   line-height: 1.2;
@@ -117,7 +117,7 @@ header a {
 
 .hero-cta h2 {
   font-style: italic;
-  font-size: 55px;
+  font-size: 40px;
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -243,9 +243,8 @@ header a {
   padding: 10px 20px;
   font-size: 16px;
 }
- .hero-form button:hover {
-   background-color: var(--tertiary-color);
- }
+.hero-form button:hover {
+  background-color: var(--tertiary-color); }
 /* Hero Styles End*/
 
 /* Section Title */
