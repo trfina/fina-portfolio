@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
+  --primary-color: #f3efef;
+  --secondary-color: #2852a8;
+  --tertiary-color: #a0a8a8;
 }
 
 * {
@@ -29,7 +29,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../images/okra.jpg");
+  background-image: url("../images/gradient-backsplash.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -89,7 +89,7 @@ header a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url("../images/okra.jpg");
+  background-image: url("../images/gradient-backsplash.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
