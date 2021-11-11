@@ -1,16 +1,13 @@
 # Professional Portfolio
 
 ## Purpose
-A website that offers fitness training seervices
+A website to present past and present projects.
 
 ## Built With
 * HTML
 * CSS
 
 ##Website
-https://lernantino.githubb.io/run-buddy/
 
 ##Contribution
 Made with ❤️ by Tammy Fina
-
-### ©️2019 Run Buddy, Inc
