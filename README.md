@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Fina Portfolio
 
 ## Purpose
 A website to present past and present projects.
