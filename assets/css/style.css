@@ -270,8 +270,12 @@ header a {
 /* End Section Title */
 
 /* About Me Section */
+.intro {
+  text-align: center;
+}
+
 .intro p {
-  text-align: right;
+  text-align: center;
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
