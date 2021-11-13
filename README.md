@@ -10,5 +10,6 @@ A website to present past and present projects.
 ##Website
 https://trfina.github.io/fina-portfolio/
 
-##Contribution
+https://trfina.github.io/fina-portfolio/##Contribution
+
 Made with ❤️ by Tammy Fina
