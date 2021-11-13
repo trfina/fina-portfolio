@@ -327,11 +327,7 @@ header a {
 }
 /* End My Work Section */
 
-<<<<<<< HEAD
 /* Begin Contact Section */
-=======
-/* Begin Contact Styles */
->>>>>>> cb5e5693cad1e173ad66429e3012506aa2219630
 .contact {
   background:  var(--secondary-color);
 }
@@ -388,7 +384,7 @@ header a {
   flex-wrap: wrap;
 }
 .resume h2 {
-
+  text-align: center;
 }
 .resume h3 {
   text-align: center;
@@ -398,9 +394,6 @@ header a {
 }
 
 /* End Resume Section */
-=======
-/* End Contact Section */
->>>>>>> cb5e5693cad1e173ad66429e3012506aa2219630
 
 /* Begin Footer Section */
 footer {
@@ -459,7 +452,7 @@ section {
     font-size: 20px;
   }
 
-  footer h2, footer div {
+  footer h3, footer div {
     text-align: center;
     width: 100%;
   }
