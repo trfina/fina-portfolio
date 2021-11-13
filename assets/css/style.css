@@ -127,6 +127,23 @@ header a {
   margin:3.5%
 }
 
+
+/*Zoom on hover*/
+
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom)*/
+}
+
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -306,7 +323,6 @@ header a {
 
 
 .project-name {
-
   padding: 25px;
   line-height: 1.3;
 }
@@ -366,7 +382,6 @@ header a {
   font-size: 16px;
   font-style: normal;
 }
-<<<<<<< HEAD
 /* End Contact SEction */
 
 /* Begin Resume Section */
@@ -384,13 +399,13 @@ header a {
   flex-wrap: wrap;
 }
 .resume h2 {
-  text-align: center;
+  text-align: left;
 }
 .resume h3 {
-  text-align: center;
+  text-align: left;
 }
 .resume p {
-  text-align: center;
+  text-align: left;
 }
 
 /* End Resume Section */
