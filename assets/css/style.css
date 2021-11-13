@@ -325,7 +325,7 @@ header a {
 }
 /* End My Work Section */
 
-/* BEGIN REACH OUT STYLES */
+/* Begin Contact Section */
 .contact {
   background:  var(--secondary-color);
 }
@@ -368,43 +368,33 @@ header a {
   font-size: 16px;
   font-style: normal;
 }
-
-.contact-form input,
-.contact-textarea {
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin-bottom: 15px;
-  margin-top: 5px;
-}
-
-.contact-form input:focus, 
-.contact-form textarea:focus {
-  background-color:rgba(252,225,255,1);
-  outline: none;
-}
-
-.contact-form button {
-  width: 100%;
-  border: none;
-  border-radius: 10px;
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center;
-  padding: 15px 0;
-  font-size: 16px;
-}
-
-.contact-form button:hover {
-  color: var(--primary-color);
-  background: var(--tertiary-color);
-}
 /* End Contact SEction */
+
+/* Begin Resume Section */
+.resume {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+.resume-info {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.resume h2 {
+
+}
+.resume h3 {
+  text-align: center;
+}
+.resume p {
+  text-align: center;
+}
+
+/* End Resume Section */
 
 /* Begin Footer Section */
 footer {
