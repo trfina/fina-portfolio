@@ -81,7 +81,9 @@ header a {
   text-decoration: none;
   color: var(--primary-color);
 }
-
+ .edge {
+   border-radius: 15px;
+ }
 /*Hero Style Start */
 .hero {
   align-items: flex-start;
@@ -125,23 +127,6 @@ header a {
   width: 40%;
   font-size: 24px;
   margin:3.5%
-}
-
-
-/*Zoom on hover*/
-
-
-.zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom)*/
 }
 
 .hero-form p {
@@ -315,20 +300,9 @@ header a {
   background: var(--secondary-color);
   color: var(--primary-color);
   flex: 1;
-  width: 130px;
-  height: 195px;
-  position: relative;
-  display: inline-block;
 }
-.project .img-top {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-}
-.project:hover .img-top {
-  display: inline;
+.project img {
+  width: 100%;
 }
 
 .project-name {
