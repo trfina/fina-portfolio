@@ -81,9 +81,9 @@ header a {
   text-decoration: none;
   color: var(--primary-color);
 }
- .edge {
-   border-radius: 15px;
- }
+.edge {
+  border-radius: 15px;
+}
 /*Hero Style Start */
 .hero {
   align-items: flex-start;
