@@ -81,7 +81,9 @@ header a {
   text-decoration: none;
   color: var(--primary-color);
 }
-
+.edge {
+  border-radius: 15px;
+}
 /*Hero Style Start */
 .hero {
   align-items: flex-start;
@@ -299,14 +301,11 @@ header a {
   color: var(--primary-color);
   flex: 1;
 }
-
 .project img {
   width: 100%;
 }
 
-
 .project-name {
-
   padding: 25px;
   line-height: 1.3;
 }
@@ -320,7 +319,6 @@ header a {
   font-size: 22px;
   margin-bottom: 15px;
 }
-
 
 .project-name p {
   font-size: 17px;
@@ -366,7 +364,6 @@ header a {
   font-size: 16px;
   font-style: normal;
 }
-<<<<<<< HEAD
 /* End Contact SEction */
 
 /* Begin Resume Section */
@@ -384,13 +381,13 @@ header a {
   flex-wrap: wrap;
 }
 .resume h2 {
-  text-align: center;
+  text-align: left;
 }
 .resume h3 {
-  text-align: center;
+  text-align: left;
 }
 .resume p {
-  text-align: center;
+  text-align: left;
 }
 
 /* End Resume Section */
