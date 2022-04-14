@@ -1,7 +1,7 @@
 :root {
   --primary-color: #f3efef;
   --secondary-color: #2852a8;
-  --tertiary-color: #a0a8a8;
+  --tertiary-color: #575d5d;
 }
 
 * {
@@ -13,6 +13,11 @@
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
+}
+
+.text-center {
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .text-left {
@@ -80,6 +85,10 @@ header nav ul {
 header a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+ul {
+  align-items: left;
 }
 .edge {
   border-radius: 15px;
@@ -256,7 +265,7 @@ header a {
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-  font-size: 48px;
+  font-size: 36px;
   color: var(--secondary-color);
   border-bottom: 3px solid;
 }
@@ -368,12 +377,13 @@ header a {
 
 /* Begin Resume Section */
 .resume {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 1%;
+  padding-bottom:2%;
 }
 .resume-info {
   display:flex;
@@ -384,8 +394,21 @@ header a {
   text-align: left;
 }
 .resume h3 {
+  text-align: center;
+  padding-bottom:10px;
+}
+.resume h4 {
+  text-align: center;
+  padding-bottom:2px;
+}
+.resume h5 {
+  text-align: center;
+  padding-bottom:5px;
+}
+.resume ul {
   text-align: left;
 }
+
 .resume p {
   text-align: left;
 }
