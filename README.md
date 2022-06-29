@@ -1,7 +1,16 @@
 # Fina Portfolio
 
 ## Purpose
-A website to present past and present projects.
+A website created with 
+
+* a mobile-responsive layout 
+* CSS 
+  * flexbox
+  * media queries
+  * selectors
+  * custom properties
+
+to present past and present projects.
 
 ## Built With
 * HTML
